@@ -257,7 +257,7 @@
       }
     }
 
-    pdfjsLib.GlobalWorkerOptions.workerSrc = "js/pdf.worker.min-2.5.207.js";
+    pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdn.jsdelivr.net/gh/joppemuller/CompressPDF@master/js/pdf.worker.min-2.5.207.js";
 
     var pdfDoc = null,
       pageNum = 1,
